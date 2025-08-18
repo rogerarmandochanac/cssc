@@ -8,5 +8,6 @@
 <body>
     @extends('base')
     @include('snippets.navbar')
+    @include('snippets.header')
 </body>
 </html>
