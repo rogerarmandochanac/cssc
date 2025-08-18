@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hola Mundo</h1>
+    @extends('base')
+    @include('snippets.navbar')
 </body>
 </html>
