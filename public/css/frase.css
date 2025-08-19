@@ -1,0 +1,17 @@
+#frase{
+    background-color: rgba(0, 54, 107, 1);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#frase-txt{
+    width: 313px;
+    text-align: center;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 1);
+    margin: auto;
+}
+
+.frase-resalt{
+    color: rgba(255, 179, 15, 1);
+}
