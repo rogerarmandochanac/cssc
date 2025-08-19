@@ -4,4 +4,5 @@
     @include('snippets.header')
     @include('snippets.propuesta_valor')
     @include('snippets.frase')
+    @include('snippets.servicios')
 @endsection
