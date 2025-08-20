@@ -13,8 +13,9 @@
         <div><img src="{{ asset('image/servicios/capacitacion.png') }}" alt=""></div>
     </div>
     <div class="outside">
-        <img id="slider-prev" src="{{ asset('image/servicios/previous.svg') }}" alt="">
-        <img id="slider-prev" src="{{ asset('image/servicios/next.svg') }}" alt="">
+        <span id="slider-prev"></span>
+        <span id="slider-next"></span>
+        
     </div>
     <script>
       $(document).ready(function(){
@@ -27,8 +28,8 @@
             mode:'fade',
             nextSelector: '#slider-next',
             prevSelector: '#slider-prev',
-            nextText: 'Onward →',
-            prevText: '← Go back'
+            nextText: '<img src="{{ asset('image/servicios/next.svg') }}" alt="">',
+            prevText: '<img src="{{ asset('image/servicios/previous.svg') }}" alt="">'
         });
       });
     </script>
