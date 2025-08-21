@@ -5,4 +5,5 @@
     @include('snippets.propuesta_valor')
     @include('snippets.frase')
     @include('snippets.servicios')
+    @include('snippets.diferencias')
 @endsection

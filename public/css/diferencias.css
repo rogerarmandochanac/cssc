@@ -1,0 +1,32 @@
+.diferencias{
+    background-color: rgba(217, 225, 233, 1);
+    height: 548px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.diferencias-title{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(0, 54, 107, 1);
+    width: 288px;
+}
+
+.diferencias-list{
+    width: 250px;
+    text-align: left;
+    font-size: 18px;
+    font-weight:400;
+    list-style-position:outside;
+    list-style-image: url('../image/diferencias/list-image.png');
+    padding-left: 15px;
+}
+
+.diferencias-list li{
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
