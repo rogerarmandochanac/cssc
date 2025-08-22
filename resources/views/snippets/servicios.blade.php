@@ -4,22 +4,21 @@
         <h2 class="servicios-text02 mona-sans">Productos y soluciones</h2>
         <p class="servicios-text03 mona-sans">Te ayudamos a cumplir con tus reguladores, proteger tus sistemas y convertir la ciberseguridad en una ventaja competitiva.</p>
     </div>
-    <div class="slider">
+    <div id="slider">
         <div><img src="{{ asset('image/servicios/diagnostico.png') }}" alt=""></div>
-        <div><img src="{{ asset('image/servicios/red_team.png') }}" alt=""></div>
-        <div><img src="{{ asset('image/servicios/aliniamiento.png') }}" alt=""></div>
-        <div><img src="{{ asset('image/servicios/implementacion.png') }}" alt=""></div>
-        <div><img src="{{ asset('image/servicios/analisis.png') }}" alt=""></div>
+        <div><img src="{{ asset('image/servicios/red_team.png') }}" alt="" ></div>
+        <div><img src="{{ asset('image/servicios/aliniamiento.png') }}" alt="" ></div>
+        <div><img src="{{ asset('image/servicios/implementacion.png') }}" alt="" ></div>
+        <div><img src="{{ asset('image/servicios/analisis.png') }}" alt="" ></div>
         <div><img src="{{ asset('image/servicios/capacitacion.png') }}" alt=""></div>
     </div>
     <div class="outside">
         <span id="slider-prev"></span>
-        <span id="slider-next"></span>
-        
+        <span id="slider-next"></span> 
     </div>
     <script>
       $(document).ready(function(){
-        $(".slider").bxSlider({
+        $("#slider").bxSlider({
             wrapperClass:"",
             captions:false,
             auto:true,

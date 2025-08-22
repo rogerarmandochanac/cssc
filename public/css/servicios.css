@@ -27,7 +27,7 @@
     font-size: 18px;
 }
 
-#servicios .slider{
+#servicios #slider{
     display: flex;
     justify-content: center;
     text-align: center;

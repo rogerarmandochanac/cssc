@@ -1,0 +1,34 @@
+.modelo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.modelo-title{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(0, 54, 107, 1);
+    width: 288px;
+    text-align: center;
+}
+
+.modelo-subtitle{
+    font-size: 18px;
+    text-align: center;
+    color: rgba(56, 56, 56, 1);
+    width: 248px;
+}
+
+.bx-viewport ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bx-wrapper img {
+    width: 250px;
+}
+

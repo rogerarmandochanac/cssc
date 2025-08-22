@@ -6,4 +6,5 @@
     @include('snippets.frase')
     @include('snippets.servicios')
     @include('snippets.diferencias')
+    @include('snippets.modelo')
 @endsection
