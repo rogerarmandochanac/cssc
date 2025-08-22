@@ -1,0 +1,88 @@
+.contacto{
+    height: 1122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background:linear-gradient(to right, rgba(0, 22, 45, .8), rgba(0, 54, 107, .7)), url('/image/contacto/background.jpg');
+    background-position: center;
+    background-size:cover;
+}
+
+.contacto-titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contacto-title1{
+    font-size: 21px;
+    font-weight: 600;
+    color:rgba(255, 179, 15, 1);
+    text-align: center;
+}
+
+.contacto-title2{
+    font-size: 34px;
+    font-weight: 900;
+    width: 314px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contacto-title3{
+    width: 280px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.contacto-form{
+    height: 713px;
+    width: 320px;
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin: auto;
+    margin-top: 20px;
+    width: 275px;
+    height: 82px;
+}
+
+label{
+    color: rgba(0, 54, 107, 1);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+input{
+    width: 270px;
+    height: 57px;
+    border: 1px solid rgba(0, 54, 107, 1);
+    padding: 10px;
+}
+
+textarea{
+    width: 270px;
+    height: 113px;
+    border: 1px solid rgba(0, 54, 107, 1);
+    padding: 10px;
+}
+
+input[type=submit]{
+    width: 108px;
+    height: 53px;
+    background-color: rgba(0, 54, 107, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 10px;
+}

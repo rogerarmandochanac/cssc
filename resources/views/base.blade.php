@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="{{ asset('css/servicios.css') }}">
     <link rel="stylesheet" href="{{ asset('css/diferencias.css') }}">
     <link rel="stylesheet" href="{{ asset('css/modelo.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/contacto.css') }}">
 </head>
 <body>
     @yield("contenedor")

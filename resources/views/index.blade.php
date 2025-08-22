@@ -7,4 +7,5 @@
     @include('snippets.servicios')
     @include('snippets.diferencias')
     @include('snippets.modelo')
+    @include('snippets.contacto')
 @endsection
