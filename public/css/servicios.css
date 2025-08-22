@@ -27,10 +27,8 @@
     font-size: 18px;
 }
 
-#servicios #slider{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+div:has(.bx-viewport){
+    margin: auto;
 }
 
 #servicios .outside{
@@ -42,3 +40,4 @@
     gap:40px;
     margin-bottom: 50px;
 }
+

@@ -9,9 +9,11 @@
         <script>
       $(document).ready(function(){
         $('#slider2').bxSlider({
+            slideWidth:250,
             wrapperClass:"",
             auto: true,
             pager:false,
+            controls:false,
         });
       });
     </script>

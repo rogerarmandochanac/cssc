@@ -5,13 +5,14 @@
         <p class="servicios-text03 mona-sans">Te ayudamos a cumplir con tus reguladores, proteger tus sistemas y convertir la ciberseguridad en una ventaja competitiva.</p>
     </div>
     <div id="slider">
-        <div><img src="{{ asset('image/servicios/diagnostico.png') }}" alt=""></div>
-        <div><img src="{{ asset('image/servicios/red_team.png') }}" alt="" ></div>
-        <div><img src="{{ asset('image/servicios/aliniamiento.png') }}" alt="" ></div>
-        <div><img src="{{ asset('image/servicios/implementacion.png') }}" alt="" ></div>
-        <div><img src="{{ asset('image/servicios/analisis.png') }}" alt="" ></div>
-        <div><img src="{{ asset('image/servicios/capacitacion.png') }}" alt=""></div>
+        <div class="slide"><img src="{{ asset('image/servicios/diagnostico.png') }}" alt="" width="314px"></div>
+        <div class="slide"><img src="{{ asset('image/servicios/red_team.png') }}" alt="" width="314px"></div>
+        <div class="slide"><img src="{{ asset('image/servicios/aliniamiento.png') }}" alt="" width="314px"></div>
+        <div class="slide"><img src="{{ asset('image/servicios/implementacion.png') }}" alt="" width="314px"></div>
+        <div class="slide"><img src="{{ asset('image/servicios/analisis.png') }}" alt="" width="314px"></div>
+        <div class="slide"><img src="{{ asset('image/servicios/capacitacion.png') }}" alt="" width="314px"></div>
     </div>
+
     <div class="outside">
         <span id="slider-prev"></span>
         <span id="slider-next"></span> 
@@ -19,11 +20,11 @@
     <script>
       $(document).ready(function(){
         $("#slider").bxSlider({
+            wrapper_class:"slider",
+            slideWidth:314,
             wrapperClass:"",
-            captions:false,
             auto:true,
             pager:false,
-            hideControlOnEnd: true,
             mode:'fade',
             nextSelector: '#slider-next',
             prevSelector: '#slider-prev',
