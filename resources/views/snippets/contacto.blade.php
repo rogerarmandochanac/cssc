@@ -23,7 +23,7 @@
         </div>
         <div class="form-group">
             <label for="mensaje" class="mona-sans">Mensaje</label>
-            <textarea name="mensaje" id="mensaje" height="113px"></textarea>
+            <textarea class="mona-sans" name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
         </div>
         <div class="form-group">
             <input type="submit" value="ENVIAR" class="mona-sans">

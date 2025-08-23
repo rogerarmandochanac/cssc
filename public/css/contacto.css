@@ -52,11 +52,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
     margin: auto;
-    margin-top: 20px;
     width: 275px;
-    height: 82px;
+    height: 113px;
 }
 
 label{
@@ -72,9 +70,9 @@ input{
     padding: 10px;
 }
 
-textarea{
+#mensaje{
     width: 270px;
-    height: 113px;
+    height: 113px !important;
     border: 1px solid rgba(0, 54, 107, 1);
     padding: 10px;
 }
