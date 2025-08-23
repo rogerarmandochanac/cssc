@@ -8,4 +8,5 @@
     @include('snippets.diferencias')
     @include('snippets.modelo')
     @include('snippets.contacto')
+    @include('snippets.acerca_de')
 @endsection
