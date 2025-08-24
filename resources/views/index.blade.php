@@ -9,4 +9,5 @@
     @include('snippets.modelo')
     @include('snippets.contacto')
     @include('snippets.acerca_de')
+    @include('snippets.footer')
 @endsection
