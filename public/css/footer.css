@@ -6,6 +6,7 @@ footer{
     align-items: center;
     gap: 10px;
     margin: 30px 0;
+    height: 606px;
 }
 
 .footer-logo{
@@ -33,4 +34,42 @@ footer{
 
 #footer-menu li{
     margin-bottom: 20px;
+    
+}
+
+#footer-contacto{
+    margin-left: 25px;
+}
+
+#footer-contacto li{
+    margin-bottom: 20px; 
+    list-style-position: outside;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+.list-item-telefono{
+    list-style-image: url('../image/footer/telefono.png');
+}
+
+.list-item-correo{
+    list-style-image: url('../image/footer/correo.png');
+}
+
+.list-item-ubicacion{
+    list-style-image: url('../image/footer/ubicacion.png');
+}
+
+.footer-sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-licencia{
+    margin-bottom: 40px;
 }

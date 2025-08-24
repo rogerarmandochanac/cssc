@@ -9,13 +9,13 @@
             <li>Contacto</li>
         </ul>
         <ul id="footer-contacto"  class="mona-sans">
-            <li>+56 9 5847 36521</li>
-            <li>contacto@ccs.cl</li>
-            <li>Doctor Manuel Barros Borgoño 71, Santiago, Chile</li>
+            <li class="list-item-telefono">+56 9 5847 36521</li>
+            <li class="list-item-correo">contacto@ccs.cl</li>
+            <li class="list-item-ubicacion">Doctor Manuel Barros Borgoño 71, Santiago, Chile</li>
         </ul>
         <div class="footer-sociales">
-            <img src="" alt="inkedin">
-            <img src="" alt="instagram">
+            <img src="{{ asset('image/footer/inkedin.png') }}" alt="inkedin">
+            <img class="footer-instagram" src="{{ asset('image/footer/instagram.png') }}" alt="instagram">
         </div>
         <p class="footer-licencia mona-sans">© 2025 Cybersecurity Compliance Solutions (CCS). Todos los derechos reservados.</p>
     </div>
