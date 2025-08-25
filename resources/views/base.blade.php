@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="{{ asset('css/contacto.css') }}">
     <link rel="stylesheet" href="{{ asset('css/acerca_de.css') }}">
     <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/nosotros/header.css') }}">
 </head>
 <body>
     @yield("contenedor")

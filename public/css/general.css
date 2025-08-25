@@ -19,3 +19,7 @@ body{
 .bg-blue{
     background-color: rgba(0, 54, 107, 1);
 }
+
+.bg-amarillo{
+  background-color: rgba(255, 179, 15, 1);
+}

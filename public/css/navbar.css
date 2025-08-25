@@ -62,6 +62,7 @@ nav{
     height: 800px;
     list-style: none;
     transform: var(--transform);
+    transition: transform 0.4s;
 }
 
 .nav_list{
@@ -77,6 +78,10 @@ nav{
     font-weight: 600;
 }
 
+.nav_link:hover{
+    color:rgba(255, 179, 15, 1);
+}
+
 .list_telefono{
     list-style-position: inside;
     list-style-image: url('../image/menu/telefono.png');
@@ -85,4 +90,52 @@ nav{
 .list_correo{
     list-style-position: inside;
     list-style-image: url('../image/menu/correo.png');
+}
+
+
+.submenu {
+    display: none;
+    background: #00366b;
+    padding: 10px 0;
+    margin-top: 5px;
+    border-radius: 6px;
+    min-width: 160px;
+}
+
+.nav_servicios.active .submenu {
+    display: block;
+}
+
+#servicios-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#submenu-servicios li{
+    list-style: none;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+#submenu-servicios li a{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.arrow {
+    display: inline-block;
+    margin-left: 15px;
+    width: 12px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    padding: 2px;
+    transform: rotate(45deg); /* Flecha abajo */
+    transition: transform 0.2s;
+}
+
+.nav_servicios.active .arrow {
+    transform: rotate(-135deg); /* Flecha arriba */
 }
