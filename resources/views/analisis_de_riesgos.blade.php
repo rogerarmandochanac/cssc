@@ -1,0 +1,9 @@
+@extends('base')
+@section('contenedor')
+    @include('snippets.navbar')
+    @include('snippets.diagnostico.header')
+    @include('snippets.analisis_de_riesgos.que_incluye')
+    @include('snippets.analisis_de_riesgos.beneficios')
+    @include('snippets.diagnostico.modelo')
+    @include('snippets.footer')
+@endsection

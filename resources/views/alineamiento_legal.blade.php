@@ -1,0 +1,9 @@
+@extends('base')
+@section('contenedor')
+    @include('snippets.navbar')
+    @include('snippets.diagnostico.header')
+    @include('snippets.alineamiento_legal.que_incluye')
+    @include('snippets.alineamiento_legal.beneficios')
+    @include('snippets.diagnostico.modelo')
+    @include('snippets.footer')
+@endsection

@@ -1,0 +1,9 @@
+@extends('base')
+@section('contenedor')
+    @include('snippets.navbar')
+    @include('snippets.diagnostico.header')
+    @include('snippets.implementacion_sgsi.que_incluye')
+    @include('snippets.implementacion_sgsi.beneficios')
+    @include('snippets.diagnostico.modelo')
+    @include('snippets.footer')
+@endsection

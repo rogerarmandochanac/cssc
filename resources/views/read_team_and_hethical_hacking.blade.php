@@ -1,0 +1,9 @@
+@extends('base')
+@section('contenedor')
+    @include('snippets.navbar')
+    @include('snippets.diagnostico.header')
+    @include('snippets.read_team_and_hethical_hacking.que_incluye')
+    @include('snippets.read_team_and_hethical_hacking.beneficios')
+    @include('snippets.diagnostico.modelo')
+    @include('snippets.footer')
+@endsection
