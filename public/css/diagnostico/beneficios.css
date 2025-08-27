@@ -1,0 +1,47 @@
+.beneficios-servicios{
+    padding: 50px 0;
+    background-color: rgba(217, 225, 233, 1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.beneficios-servicios h3{
+    width: 266px;
+    color: rgba(0, 54, 107, 1);
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.beneficios-servicios ul{
+    padding: 40px 0;
+    width: 266px;
+    text-align: left;
+    font-size: 20px;
+    font-weight:400;
+    list-style-position:outside;
+    list-style-image: url('../../image/diferencias/list-image.png');
+    padding-left: 15px;
+
+}
+
+.beneficios-servicios li{
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+.beneficios-btn{
+    width: 173px;
+    height: 43px;
+    text-decoration: none;
+    text-align: center;
+    background-color:rgba(255, 179, 15, 1) ;
+    color: rgba(0, 54, 107, 1);
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

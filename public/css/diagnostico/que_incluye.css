@@ -1,0 +1,35 @@
+.que_incluye{
+    padding: 50px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.incluye_titulo{
+    width: 305px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: rgba(0, 54, 107, 1);
+}
+
+.incluye_info{
+    width: 305px;
+    color: rgba(56, 56, 56, 1);
+    font-size: 18px;
+
+}
+
+.incluye_info ul{
+    margin-top: 20px;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.incluye_info p{
+    margin-top: 20px;
+}

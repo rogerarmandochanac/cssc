@@ -10,3 +10,8 @@ Route::get('/', function () {
 Route::get('/nosotros', function () {
     return view('nosotros');
 });
+
+
+Route::get('/diagnostico-360', function () {
+    return view('diagnostico');
+});

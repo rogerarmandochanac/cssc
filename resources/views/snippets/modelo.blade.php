@@ -6,7 +6,7 @@
         <div><img src="{{ asset('image/modelo/evaluar.png') }}" alt="entender.png" width="250px"></div>
         <div><img src="{{ asset('image/modelo/determinar.png') }}" alt="entender.png" width="250px"></div>
     </div>
-        <script>
+    <script>
       $(document).ready(function(){
         $('#slider2').bxSlider({
             slideWidth:250,

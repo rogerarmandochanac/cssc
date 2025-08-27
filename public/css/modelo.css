@@ -1,8 +1,8 @@
 .modelo{
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 15px;
 }
@@ -20,4 +20,9 @@
     text-align: center;
     color: rgba(56, 56, 56, 1);
     width: 248px;
+    margin-bottom: 10px;
+}
+
+#slider2{
+    margin-bottom: 20px;
 }

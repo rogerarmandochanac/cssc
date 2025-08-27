@@ -1,3 +1,7 @@
+#servicios{
+    padding: 20px 0;
+}
+
 #servicios-frase{
     width: 335px;
     margin: auto;
@@ -28,7 +32,7 @@
 }
 
 div:has(.bx-viewport){
-    margin: auto;
+    margin:0 auto;
 }
 
 #servicios .outside{

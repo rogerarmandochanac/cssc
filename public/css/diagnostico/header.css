@@ -1,0 +1,34 @@
+.diagnostico{
+    background: linear-gradient(to right, rgba(0, 22, 45, .7), rgba(0, 22, 45, .7)), url('../../image/diagnostico/persona_trabajando.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.diagnostico h3{
+    width: 330px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+}
+
+.diagnostico h3 span{
+    color: rgba(255, 179, 15, 1);
+}
+
+.diagnostico p{
+    width: 331px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 30px;
+}

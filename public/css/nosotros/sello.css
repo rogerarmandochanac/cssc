@@ -1,0 +1,38 @@
+.sello{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    clear: both;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.sello h3{
+    width: 227px;
+    color: rgba(0, 54, 107, 1);
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sello p{
+    width: 322px;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(56, 56, 56, 1);
+    text-align: center;
+}
+
+.poligono-top{
+    position: relative;
+    top: -75px;
+}
+
+.poligono-bottom{
+    position: relative;
+    bottom: -75px;
+}
