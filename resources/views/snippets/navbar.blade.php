@@ -16,7 +16,7 @@
 
                 </ul>
             </li>
-            <li class="nav_list"><a href="{{ url('contacto') }}" class="nav_link mona-sans">Contacto</a></li>
+            <li class="nav_list menu-btn-contacto"><a href="{{ url('contacto') }}" class="nav_link mona-sans" id="btn-nav-contacto">Contacto</a></li>
             <li class="nav_list list_telefono"><a href="" class="nav_link mona-sans">+56 9 5847 36521</a></li>
             <li class="nav_list list_correo"><a href="" class="nav_link mona-sans">contacto@ccs.cl</a></li>
         </ul>
@@ -26,8 +26,27 @@
 </nav>
 
 <script>
-document.getElementById('servicios-link').addEventListener('click', function(e) {
-    e.preventDefault();
-    document.querySelector('.nav_servicios').classList.toggle('active');
+    function updateContactoBtnText(){
+        const btn = document.getElementById('btn-nav-contacto');
+        if(window.innerWidth < 768){
+            btn.innerHTML = "Contacto"
+        }
+        else{
+            btn.innerHTML = "Contactanos"
+        }
+    }
+
+    updateContactoBtnText();
+    window.addEventListener('resize', updateContactoBtnText);
+    
+    document.getElementById('servicios-link').addEventListener('click', function(e) {
+    if (window.innerWidth < 768) {
+        btn.innerHTML = "Contacto";
+        document.querySelector('.nav_servicios').classList.toggle('active');
+    }
+    else{
+        e.preventDefault();
+        document.querySelector('.nav_servicios').classList.toggle('active');
+    }
 });
 </script>
