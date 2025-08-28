@@ -31,3 +31,11 @@ Route::get('/implementacion-sgsi', function () {
 Route::get('/analisis_de_riesgos', function () {
     return view('analisis_de_riesgos');
 });
+
+Route::get('/capacitacion', function () {
+    return view('capacitacion');
+});
+
+Route::get('/contacto', function () {
+    return view('contacto');
+});

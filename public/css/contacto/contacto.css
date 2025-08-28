@@ -1,0 +1,14 @@
+.contacto-contacto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.contacto-form-dos{
+    width: 340px;
+    border: 1px solid rgba(0, 54, 107, 1);
+}

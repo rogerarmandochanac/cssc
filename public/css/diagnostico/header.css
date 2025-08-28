@@ -13,10 +13,11 @@
 }
 
 .diagnostico h3{
+    text-transform: uppercase;
     width: 330px;
     font-size: 30px;
     font-weight: 900;
-    text-align: center;
+    text-align: left;
     color:rgba(255, 255, 255, 1);
 }
 

@@ -31,6 +31,9 @@
     <link rel="stylesheet" href="{{ asset('css/diagnostico/que_incluye.css') }}">
     <link rel="stylesheet" href="{{ asset('css/diagnostico/beneficios.css') }}">
     <link rel="stylesheet" href="{{ asset('css/diagnostico/modelo.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/contacto/header.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/contacto/ubicacion.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/contacto/contacto.css') }}">
 </head>
 <body>
     @yield("contenedor")
