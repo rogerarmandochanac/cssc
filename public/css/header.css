@@ -34,7 +34,6 @@ header{
 
 #second-title{
     width: 285px;
-    max-width: 680px;
     font-size: 22px;
     font-weight: 400;
     line-height: 30px;
@@ -50,6 +49,7 @@ header{
     font-weight: 700;
     letter-spacing: 0.2px;
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -73,3 +73,58 @@ header{
     border: 2px solid rgba(255, 179, 15, 1);
     color: rgb(255, 255, 255);
 }
+
+@media screen and (min-width:768px) {
+
+
+header{
+    padding:50px;
+    height: 600px;
+    gap: 30px;
+}
+    
+#principal-title{
+    width: 750px;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+#title-container{
+    gap: 30px;
+}
+
+#second-title{
+    width: 600px;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+#header-buttons{
+    width: 650px;
+    gap: 20px;
+}
+
+
+} 
+
+@media screen and (min-width:1020px) {
+
+    
+#principal-title{
+    width: 1060px;
+    font-size: 74px;
+}
+
+#second-title{
+    width: 867px;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+#header-buttons{
+    width: 650px;
+    gap: 20px;
+}
+
+
+} 
