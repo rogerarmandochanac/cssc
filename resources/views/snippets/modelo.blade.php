@@ -7,14 +7,30 @@
         <div><img src="{{ asset('image/modelo/determinar.png') }}" alt="entender.png" width="250px"></div>
     </div>
     <script>
-      $(document).ready(function(){
-        $('#slider2').bxSlider({
-            slideWidth:250,
-            wrapperClass:"",
-            auto: true,
-            pager:false,
-            controls:false,
-        });
-      });
-    </script>
+let sliderInstance2 = null;
+
+function handleSlider2() {
+    if (window.innerWidth <= 768) {
+        if (!sliderInstance2) {
+            sliderInstance2 = $('#slider2').bxSlider({
+                wrapperClass:"",
+                slideWidth: 250,
+                auto: true,
+                pager: false,
+                controls: false,
+            });
+        }
+    } else {
+        if (sliderInstance2) {
+            sliderInstance2.destroySlider();
+            sliderInstance2 = null;
+        }
+    }
+}
+
+$(document).ready(function(){
+    handleSlider2();
+    $(window).resize(handleSlider2);
+});
+</script>
 </div>

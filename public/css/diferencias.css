@@ -3,7 +3,8 @@
     height: 600px;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -29,4 +30,31 @@
 .diferencias-list li{
     margin-bottom: 15px;
     padding-left: 15px;
+}
+
+@media screen and (min-width:768px) {
+.diferencias{
+    height: 408px;
+}
+
+.diferencias-title{
+    font-size: 50px;
+    width: 424px;
+}
+
+.diferencias-list{
+    width: 300px;
+}
+
+}
+
+@media screen and (min-width:1020px) {
+.diferencias-title{
+    width: 500px;
+}
+
+.diferencias-list{
+    width: 500px;
+}
+
 }

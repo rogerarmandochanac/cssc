@@ -18,19 +18,35 @@
         <span id="slider-next"></span> 
     </div>
     <script>
-      $(document).ready(function(){
-        $("#slider").bxSlider({
-            wrapper_class:"slider",
-            slideWidth:314,
-            wrapperClass:"",
-            auto:true,
-            pager:false,
-            mode:'fade',
-            nextSelector: '#slider-next',
-            prevSelector: '#slider-prev',
-            nextText: '<img src="{{ asset('image/servicios/next.svg') }}" alt="">',
-            prevText: '<img src="{{ asset('image/servicios/previous.svg') }}" alt="">'
-        });
-      });
-    </script>
+let sliderInstance = null;
+
+function handleSlider() {
+    if (window.innerWidth <= 768) {
+        if (!sliderInstance) {
+            sliderInstance = $("#slider").bxSlider({
+                wrapper_class:"slider",
+                slideWidth:314,
+                wrapperClass:"",
+                auto:true,
+                pager:false,
+                mode:'fade',
+                nextSelector: '#slider-next',
+                prevSelector: '#slider-prev',
+                nextText: '<img src="{{ asset('image/servicios/next.svg') }}" alt="">',
+                prevText: '<img src="{{ asset('image/servicios/previous.svg') }}" alt="">'
+            });
+        }
+    } else {
+        if (sliderInstance) {
+            sliderInstance.destroySlider();
+            sliderInstance = null;
+        }
+    }
+}
+
+$(document).ready(function(){
+    handleSlider();
+    $(window).resize(handleSlider);
+});
+</script>
 </div>
