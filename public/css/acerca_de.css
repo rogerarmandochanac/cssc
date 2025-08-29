@@ -1,6 +1,7 @@
 .acerca_de{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -32,4 +33,24 @@
     color: rgba(255, 255, 255, 1);
     font-size: 14px;
     font-weight: 700;
+}
+
+@media screen and (min-width:796px) {
+    .acerca_de{
+        padding: 80px 0;
+        gap: 100px;
+    }
+
+    .acerca_de_text{
+        width: 500px;
+    }
+    .acerca_de_title{
+        width: 700px;
+        font-size: 50px;
+    }
+
+    .acerca_de_fulltext{
+        width: 594px;
+        font-size: 21px;
+    }
 }

@@ -1,17 +1,21 @@
 footer{
     background-color: rgba(0, 54, 107, 1);
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto;
     justify-content: center;
     align-items: center;
     gap: 10px;
     margin: 0 0 0 0;
+    padding: 30px 0;
 }
+
 
 .footer-logo{
     margin-top: 30px;
     width: 262px;
 }
+
+
 
 .footer-text{
     width: 300px;
@@ -19,7 +23,10 @@ footer{
     color:white;
 }
 
-.footer-text p{
+.frase{
+    width: 300px;
+    text-align: left;
+    color:white;
     font-size: 14px;
 }
 
@@ -29,6 +36,18 @@ footer{
     list-style: none;
     font-size: 16px;
     font-weight: 700;
+}
+
+.productos-y-servicios{
+    display: none;
+}
+
+.vias-contacto-title{
+    display: none;
+}
+
+.sociales-title{
+    display: none;
 }
 
 #footer-menu li{
@@ -69,6 +88,125 @@ footer{
     margin-bottom: 20px;
 }
 
+.sociales{
+    display: flex;
+
+}
+
 .footer-licencia{
+    width: 300px;
+    text-align: left;
+    color:white;
     margin-bottom: 20px;
+}
+
+@media screen and (min-width:1020px) {
+    footer{
+        grid-template-columns: 350px 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        align-content: center;
+        padding: 50px;
+    }
+
+    .logo{
+        align-self: flex-start;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .footer-logo{
+        margin-top: 0;
+    }
+
+    .footer-licencia{
+        align-self: flex-end;
+        margin-bottom: 0;
+    }
+
+    #footer-menu{
+        margin-top: 0;
+        font-size: 14px;
+    }
+
+    .footer-licencia{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .footer-text {
+        width: 100%;
+        grid-column: 2 / span 3;
+        grid-row: 1 / span 2; /* Ocupa ambas filas de la segunda columna */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 50px;
+    }
+
+    .vias-contacto{
+        width: 249px;
+    }
+
+    .vias-contacto-title{
+        padding-bottom: 20px;
+        font-weight: 600;
+    }
+
+    .sociales{
+        width: 150px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .sociales-title{
+        width: 120px;
+        padding-bottom: 20px;
+        font-weight: 600;
+    }
+
+    .footer-sociales{
+        margin-top: 0;
+    }
+
+    .productos-y-servicios{
+        display: block;
+        width: 263px;
+    }
+
+    .vias-contacto-title{
+        display: block;
+    }
+
+    .sociales-title{
+        display: block;
+    }
+
+    .productos-y-servicios-title{
+        font-size: 14;
+        font-weight: 600;
+        color:white;
+        padding-bottom: 20px;
+    }
+
+    .footer-productos-y-servicios li{
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+    .footer-productos-y-servicios li a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    #footer-contacto li{
+        font-size: 14px;
+        font-weight: 400;
+    }
 }

@@ -13,7 +13,6 @@
                     <li><a href="{{ url('implementacion-sgsi') }}" class="nav_link mona-sans">Implementación de SGSI</a></li>
                     <li><a href="{{ url('analisis_de_riesgos') }}" class="nav_link mona-sans">Análisis de Riesgos y Planes de Acción</a></li>
                     <li><a href="{{ url('capacitacion') }}" class="nav_link mona-sans">Capacitación y Concientización</a></li>
-
                 </ul>
             </li>
             <li class="nav_list menu-btn-contacto"><a href="{{ url('contacto') }}" class="nav_link mona-sans" id="btn-nav-contacto">Contacto</a></li>
