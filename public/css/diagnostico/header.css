@@ -4,7 +4,8 @@
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -12,7 +13,7 @@
     padding-bottom: 50px;
 }
 
-.diagnostico h3{
+.diagnostico-container h3{
     text-transform: uppercase;
     width: 330px;
     font-size: 30px;
@@ -21,15 +22,33 @@
     color:rgba(255, 255, 255, 1);
 }
 
-.diagnostico h3 span{
+.diagnostico-container h3 span{
     color: rgba(255, 179, 15, 1);
 }
 
-.diagnostico p{
+.diagnostico-container p{
     width: 331px;
     font-size: 18px;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 30px;
+}
+
+@media screen and (min-width:1020px){
+    .diagnostico-container{
+        width: 600px;
+    }
+
+    .diagnostico-container h3{
+        width: 550px;
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .diagnostico-container p{
+        width: 499px;
+        text-align: left;
+        font-size: 22px;
+    }
 }

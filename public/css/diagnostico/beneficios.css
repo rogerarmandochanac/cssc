@@ -45,3 +45,60 @@
     justify-content: center;
     align-items: center;
 }
+
+#btn-conversemos{
+    display: none;
+}
+
+
+@media screen and (min-width:1020px){
+
+    #btn-conversemos2{
+        display: none;
+    }
+
+    #btn-conversemos{
+        display: inline-block;
+        width: 173px;
+        height: 43px;
+        text-decoration: none;
+        text-align: center;
+        background-color:rgba(255, 179, 15, 1) ;
+        color: rgba(0, 54, 107, 1);
+        font-size: 15px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .beneficios-container{
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start ;
+        justify-items: flex-start;
+        gap: 20px;
+        margin: auto;
+    }
+
+    .beneficios-servicios{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        height: 440px;
+    }
+
+    .beneficios-servicios h3{
+        width: 100%;
+        font-size: 48px;
+    }
+
+    .beneficios-servicios ul{
+        width: 500px;
+        margin: auto;
+        align-self: center;
+    }
+
+}

@@ -1,5 +1,6 @@
 <div class="modelo-diagnostico">
     <h1 class="mona-sans">MODELO DE SERVICIO</h1>
+    <img src="{{ asset('image/diagnostico/modelo-line.png') }}" alt="" id="card-line">
     <div class="cards">
         <div class="card-diagnostico">
             <img src="{{ asset('image/diagnostico/evaluacion.png') }}" alt="evaluacion.png">

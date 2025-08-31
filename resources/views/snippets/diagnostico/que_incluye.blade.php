@@ -1,5 +1,5 @@
 <div class="que_incluye">
-    <img src="{{ asset('image/diagnostico/diagnostico_incluye.png') }}" alt="">
+    <img srcset="{{ asset('image/diagnostico/diagnostico_incluye_1020.png') }}" alt="">
     <div class="incluye_info">
         <h1 class="mona-sans incluye_titulo">¿Qué INCLUYE ESTE SERVICIO?</h1>
         <ul class="mona-sans">

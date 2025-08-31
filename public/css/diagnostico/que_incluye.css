@@ -8,6 +8,10 @@
     gap: 20px;
 }
 
+.que_incluye img{
+    width: 317px;
+}
+
 .incluye_titulo{
     width: 305px;
     text-transform: uppercase;
@@ -32,4 +36,26 @@
 
 .incluye_info p{
     margin-top: 20px;
+}
+
+@media screen and (min-width:1020px) {
+    .que_incluye{
+        gap: 50px;
+    }
+
+    .que_incluye img{
+        width: 548px;
+        height: 495px;
+    }
+
+    .incluye_titulo{
+    width: 445px;
+    font-size: 50px;
+    }
+
+    .incluye_info{
+    width: 594px;
+    font-size: 21px;
+
+    }
 }
