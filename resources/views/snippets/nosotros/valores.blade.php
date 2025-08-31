@@ -9,15 +9,32 @@
          <div><img src="{{ asset('../image/nosotros/valores/mejora_continua.png') }}" alt=""></div>
     </div>
     <script>
-      $(document).ready(function(){
-        $('#slider3').bxSlider({
+
+      let sliderInstance3 = null;
+
+function handleSlider3() {
+    if (window.innerWidth <= 1020) {
+        if (!sliderInstance3) {
+            sliderInstance3 = $('#slider3').bxSlider({
             slideWidth:328,
             slideHeight:326,
             wrapperClass:"",
             auto: true,
             pager:false,
             controls:false,
-        });
-      });
+            });
+        }
+    } else {
+        if (sliderInstance3) {
+            sliderInstance3.destroySlider();
+            sliderInstance3 = null;
+        }
+    }
+}
+
+$(document).ready(function(){
+    handleSlider3();
+    $(window).resize(handleSlider3);
+});
     </script>
 </div>

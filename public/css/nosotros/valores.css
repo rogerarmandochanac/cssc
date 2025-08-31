@@ -1,5 +1,6 @@
 .valores{
-    background: linear-gradient(to right, rgba(0, 22, 45, .7), rgba(0, 22, 45, .7)), url('../../image/nosotros/valores/centro_de_datos.jpg');
+    background: linear-gradient(to right, rgba(0, 54, 107, .8), rgba(0, 54, 107, .8)), url('../../image/nosotros/valores/centro_de_datos.jpg');
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -20,5 +21,28 @@
 
 .valores h3 span{
     color: rgba(255, 179, 15, 1);
+}
+
+@media screen and (min-width:1020px) {
+
+    .valores{
+        gap: 80px;
+    }
+
+    .valores h3{
+    width: 583px;
+    font-size: 48px;
+    align-self: flex-start;
+    margin-left:120px ;
+}
+
+    #slider3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+
+    }
 }
 

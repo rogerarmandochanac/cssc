@@ -1,5 +1,5 @@
 .equipo{
-    margin: 40px 0;
+    margin: 50px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,6 +22,14 @@
     font-weight: 400;
     text-align: center;
     color: rgba(56, 56, 56, 1);
+}
+
+.equipo-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -65,5 +73,49 @@
 
 .card-footer a img{
     cursor: pointer;
+}
+
+@media screen and (min-width:1020px) {
+    .equipo h1{
+        width: 671px;
+        font-size: 52px;
+    }
+
+    .equipo p{
+    width: 873px;
+    font-size: 24px;
+    }
+
+    .equipo-cards{
+        gap: 50px;
+    }
+
+    .equipo-cards{
+        margin-bottom: 80px;
+    }
+
+    .card-img{
+    height: 330px;
+}
+
+    .card-body{
+        width: 327px;
+        height: 100px;
+    }
+
+    .card-body h3{
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .card-body p{
+    width: 100%;
+    font-size: 20px;   
+    }
+
+    .card-footer{
+        padding-top: 20px;
+    }
+
 }
 

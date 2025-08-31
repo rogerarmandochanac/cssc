@@ -36,3 +36,28 @@
     position: relative;
     bottom: -75px;
 }
+
+@media screen  and (min-width:1020px) {
+    .sello{
+        height: 500px;
+        padding: 0 20px;
+        flex-direction: row;
+    }
+
+    .sello h3{
+        width: 462px;
+    }
+
+    .sello  p{
+        width: 583px;
+        text-align: left;
+    }
+
+    .poligono-top{
+    top: -240px;
+    }
+
+    .poligono-bottom{
+    bottom: -240px;
+}
+}

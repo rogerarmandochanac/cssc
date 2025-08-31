@@ -25,3 +25,20 @@
     text-align: center;
     width: 319px;
 }
+
+@media screen and (min-width:1020px) {
+
+    #nosotros-header{
+    height: 427px;
+}
+    
+    #nosotros-header h1{
+        font-size: 72px;
+        width: 760px;
+    }
+
+    #nosotros-header p{
+    font-size: 28px;
+    width: 1062px;
+}
+}   
