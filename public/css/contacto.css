@@ -50,6 +50,10 @@
     padding: 10px;
 }
 
+.borde{
+    border: 1px solid rgba(0, 54, 107, 1);
+}
+
 .form-group{
     display: flex;
     flex-direction: column;
@@ -111,6 +115,7 @@ input[type=submit]{
         justify-content: center;
     }
 
+
     .form-group{
         margin: 0 auto;
         width: 201px;
@@ -124,9 +129,11 @@ input[type=submit]{
     width: 428px;
     }
 
+
     #mensaje{
         width: 100%;
     }
+
 
     #button-container{
         width: 428px;

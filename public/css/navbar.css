@@ -188,8 +188,8 @@ nav{
         width: 288px;
         display: none;
         position: absolute;
-        top: 67px;
-        right: 120px;
+        top: 85px;
+        right: 250px;
         border: 1px solid var(--amarillo);
         border-radius: 0;
     }

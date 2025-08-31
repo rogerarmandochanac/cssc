@@ -1,4 +1,4 @@
- <form class="contacto-form-dos" action="">
+ <form class="contacto-form borde" action="">
         <div class="form-group">
             <label for="nombre" class="mona-sans">Nombre</label>
             <input type="text" id="nombre" name="nombre" placeholder="John Carter">
@@ -15,11 +15,11 @@
             <label for="empresa" class="mona-sans">Empresa</label>
             <input type="text" id="empresa" name="empresa" placeholder="Nombre empresa">
         </div>
-        <div class="form-group">
+        <div class="form-group" id="mensaje-container">
             <label for="mensaje" class="mona-sans">Mensaje</label>
             <textarea class="mona-sans" name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
         </div>
-        <div class="form-group">
-            <input type="submit" value="ENVIAR" class="mona-sans">
+        <div class="form-group" id="button-container">
+            <input type="submit" value="ENVIAR" class="mona-sans" id="form-buttton">
         </div>
-    </form>
+</form>

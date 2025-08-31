@@ -25,8 +25,8 @@
 </nav>
 
 <script>
+    const btn = document.getElementById('btn-nav-contacto');
     function updateContactoBtnText(){
-        const btn = document.getElementById('btn-nav-contacto');
         if(window.innerWidth < 768){
             btn.innerHTML = "Contacto"
         }
@@ -39,7 +39,8 @@
     window.addEventListener('resize', updateContactoBtnText);
     
     document.getElementById('servicios-link').addEventListener('click', function(e) {
-    if (window.innerWidth < 768) {
+    e.preventDefault()
+    if (window.innerWidth <= 768) {
         btn.innerHTML = "Contacto";
         document.querySelector('.nav_servicios').classList.toggle('active');
     }
