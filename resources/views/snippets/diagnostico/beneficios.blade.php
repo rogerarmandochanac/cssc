@@ -4,7 +4,7 @@
         <a href="" class="beneficios-btn mona-sans" id="btn-conversemos">Conversemos</a>
     </div>
     <ul class="mona-sans">
-        <li>dentificación de vulnerabilidades críticas.</li>
+        <li>Identificación de vulnerabilidades críticas.</li>
         <li>Reducción de riesgos.</li>
         <li>Cumplimiento normativo asegurado.</li>
         <li>Plan de acción personalizado</li>

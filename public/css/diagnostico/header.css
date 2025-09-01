@@ -1,8 +1,4 @@
 .diagnostico{
-    background: linear-gradient(to right, rgba(0, 22, 45, .7), rgba(0, 22, 45, .7)), url('../../image/diagnostico/persona_trabajando.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -11,6 +7,48 @@
     gap: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.background-uno{
+    background: linear-gradient(to right, rgba(0, 22, 45, .7), rgba(0, 22, 45, .7)), url('../../image/diagnostico/persona_trabajando.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-dos{
+    background: linear-gradient(to right, rgba(0, 22, 45, .7), rgba(0, 22, 45, .7)), url('../../image/read_team/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-tres{
+    background: linear-gradient(to right, rgba(0, 22, 45, .7), rgba(0, 22, 45, .7)), url('../../image/alineamiento_legal/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-cuatro{
+    background: linear-gradient(to right, rgba(0, 22, 45, .7), rgba(0, 22, 45, .7)), url('../../image/implementacion_sgsi/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-cinco{
+    background: linear-gradient(to right, rgba(0, 22, 45, .7), rgba(0, 22, 45, .7)), url('../../image/analisis_de_riesgos/background-header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background-seis{
+    background: linear-gradient(to right, rgba(0, 22, 45, .7), rgba(0, 22, 45, .7)), url('../../image/capacitacion/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .diagnostico-container h3{
