@@ -31,14 +31,7 @@ function handleSlider() {
                 nextSelector: '#slider-next',
                 prevSelector: '#slider-prev',
                 nextText: '<img src="{{ asset('image/servicios/next.svg') }}" alt="">',
-                prevText: '<img id="prev-img" src="{{ asset('image/servicios/previous.svg') }}" alt="">',
-                onSlideAfter: function($slideElement, oldIndex, newIndex){
-                    if(newIndex !== 0){
-                        $('#slider-prev').html('<img src="{{ asset('image/servicios/previous_active.png') }}" alt="">');
-                    } else {
-                        $('#slider-prev').html('<img src="{{ asset('image/servicios/previous.svg') }}" alt="">');
-                    }
-                }
+                prevText: '<img id="prev-img" src="{{ asset('image/servicios/previous_active.png') }}" alt="">',
             });
         }
     } else {

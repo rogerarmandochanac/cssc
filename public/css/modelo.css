@@ -5,6 +5,7 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
+    padding-bottom: 50px;
 }
 .modelo-title{
     margin-top: 40px;
@@ -24,8 +25,16 @@
 }
 
 #slider2{
-    margin-bottom: 20px;
+    margin: auto;
 }
+
+/* ...existing code... */
+.bx-wrapper {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+/* ...existing code... */
 
 @media screen and (min-width:768px){
     .modelo-title{
