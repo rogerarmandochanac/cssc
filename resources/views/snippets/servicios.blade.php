@@ -26,14 +26,19 @@ function handleSlider() {
             sliderInstance = $("#slider").bxSlider({
                 wrapper_class:"slider",
                 slideWidth:314,
-                wrapperClass:"",
-                auto:true,
                 pager:false,
                 mode:'fade',
                 nextSelector: '#slider-next',
                 prevSelector: '#slider-prev',
                 nextText: '<img src="{{ asset('image/servicios/next.svg') }}" alt="">',
-                prevText: '<img src="{{ asset('image/servicios/previous.svg') }}" alt="">'
+                prevText: '<img id="prev-img" src="{{ asset('image/servicios/previous.svg') }}" alt="">',
+                onSlideAfter: function($slideElement, oldIndex, newIndex){
+                    if(newIndex !== 0){
+                        $('#slider-prev').html('<img src="{{ asset('image/servicios/previous_active.png') }}" alt="">');
+                    } else {
+                        $('#slider-prev').html('<img src="{{ asset('image/servicios/previous.svg') }}" alt="">');
+                    }
+                }
             });
         }
     } else {
