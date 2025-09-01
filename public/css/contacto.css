@@ -76,6 +76,10 @@ input{
     padding: 10px;
 }
 
+input[type=text]:focus{
+    border: 1px solid rgba(255, 179, 15, 1);
+}
+
 #mensaje{
     width: 270px;
     height: 113px !important;
@@ -89,6 +93,14 @@ input[type=submit]{
     background-color: rgba(0, 54, 107, 1);
     color: rgba(255, 255, 255, 1);
     padding: 10px;
+    transition: all 0.5s;
+}
+
+input[type=submit]:hover{
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 179, 15, 1);
+    color: black;
 }
 
 @media screen and (min-width:768px) {

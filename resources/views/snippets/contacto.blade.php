@@ -1,4 +1,4 @@
-<div class="contacto">
+<div class="contacto" id="contacto">
     <div class="contacto-titles">
         <p class="contacto-title1 mona-sans">Solicita tu diagnóstico</p>
         <h3 class="contacto-title2 mona-sans">¿Listo para fortalecer tu seguridad digital?</h3>

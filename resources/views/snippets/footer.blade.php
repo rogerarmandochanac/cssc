@@ -24,16 +24,16 @@
         <div class="vias-contacto">
             <p class="vias-contacto-title mona-sans">Vias de contacto</p>
             <ul id="footer-contacto"  class="mona-sans">
-                <li class="list-item-telefono">+56 9 5847 36521</li>
-                <li class="list-item-correo">contacto@ccs.cl</li>
+                <li class="list-item-telefono"><a href="tel:+569584736521">+56 9 5847 36521</a></li>
+                <li class="list-item-correo"><a href="mailto:contacto@ccs.cl?subject=Consulta%20desde%20el%20sitio%20web">contacto@ccs.cl</a></li>
                 <li class="list-item-ubicacion">Doctor Manuel Barros Borgoño 71, Santiago, Chile</li>
             </ul>
         </div>
         <div class="sociales">
             <p class="sociales-title mona-sans">Redes Sociales</p>
             <div class="footer-sociales">
-                <img src="{{ asset('image/footer/inkedin.png') }}" alt="inkedin">
-                <img class="footer-instagram" src="{{ asset('image/footer/instagram.png') }}" alt="instagram">
+                <a href=""><img src="{{ asset('image/footer/inkedin.png') }}" alt="inkedin"></a>
+                <a href=""><img class="footer-instagram" src="{{ asset('image/footer/instagram.png') }}" alt="instagram"></a>
             </div>
         </div>
     </div>

@@ -76,6 +76,7 @@ nav{
     text-decoration: none;
     font-size: 18px;
     font-weight: 600;
+    transition: all 0.5s;
 }
 
 .nav_link:hover{
@@ -138,6 +139,19 @@ nav{
 
 .nav_servicios.active .arrow {
     transform: rotate(-135deg); /* Flecha arriba */
+}
+
+.menu-btn-contacto{
+    transition: all 0.5s;
+}
+
+.menu-btn-contacto:hover{
+    background-color: transparent;
+    border: 1px solid white;
+
+    a{
+        color:white;
+    }
 }
 
 @media screen and (min-width:768px) {

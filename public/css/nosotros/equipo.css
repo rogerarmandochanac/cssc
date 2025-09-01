@@ -75,6 +75,63 @@
     cursor: pointer;
 }
 
+.equipo-popup {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.equipo-popup-content {
+    background: #fff;
+    padding: 80px 60px;
+    border-radius: 8px;
+    max-width: 90vw;
+    width: 935px;
+    height: 598px;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.equipo-popup-close {
+    position: absolute;
+    top: 8px;
+    right: 25px;
+    font-size: 50px;
+    cursor: pointer;
+    color: var(--azul);
+}
+
+.equipo-popup-content h2{
+    font-size: 40px;
+    color: var(--azul);
+    text-align: left;
+}
+
+.equipo-popup-content h6{
+    font-size: 28px;
+    color: var(--azul);
+    font-weight: 300;
+    text-align: left;
+}
+
+.equipo-popup-content p{
+    font-size: 24px;
+    color:var(--gris);
+    font-weight: 300;
+    margin-top: 20px;
+    text-align: left;
+
+    b{
+        font-weight: 600;
+    }
+}
+
 @media screen and (min-width:1020px) {
     .equipo h1{
         width: 671px;
@@ -116,6 +173,34 @@
     .card-footer{
         padding-top: 20px;
     }
+
+}
+
+
+@media screen and (max-width: 480px) {
+    .equipo-popup-content {
+        width: 95vw;
+        padding: 50px 16px;
+        height: 660px;
+    }
+
+    .equipo-popup-content h2{
+    font-size: 28px;
+}
+
+.equipo-popup-content h6{
+    font-size: 20px;
+}
+
+.equipo-popup-content p{
+    font-size: 18px;
+    overflow: scroll;
+    b{
+        font-weight: 600;
+    }
+}
+
+
 
 }
 

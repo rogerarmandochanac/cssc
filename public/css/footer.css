@@ -42,6 +42,14 @@ footer{
     display: none;
 }
 
+.productos-y-servicios li a{
+    transition: all 0.5s;
+}
+
+.productos-y-servicios li a:hover{
+    color: var(--amarillo);
+}
+
 .vias-contacto-title{
     display: none;
 }
@@ -52,7 +60,13 @@ footer{
 
 #footer-menu li{
     margin-bottom: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
     
+}
+
+#footer-menu li:hover{
+    color: var(--amarillo);
 }
 
 #footer-contacto{
@@ -64,6 +78,17 @@ footer{
     list-style-position: outside;
     box-sizing: border-box;
     padding-left: 10px;
+}
+
+#footer-contacto li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: all 0.5s;
+}
+
+#footer-contacto li a:hover{
+    color: var(--amarillo);
 }
 
 .list-item-telefono{

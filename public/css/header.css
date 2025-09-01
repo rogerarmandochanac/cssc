@@ -64,14 +64,45 @@ header{
     align-items: center;
 }
 
+.btn-header a{
+    text-decoration: none;
+}
+
 #btn-diagnostico{
     background-color: rgba(255, 179, 15, 1);
+    transition: all 0.5s;
 
 }
 
+#btn-diagnostico a{
+    color: black;
+}
+
+
 #btn-servicios{
     border: 2px solid rgba(255, 179, 15, 1);
-    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+
+#btn-servicios a{
+    color:white
+}
+
+#btn-diagnostico:hover{
+    border: 2px solid rgba(255, 179, 15, 1);
+    background-color: transparent;
+
+    a{
+        color:white;
+    }
+}
+
+#btn-servicios:hover{
+    background-color: rgba(255, 179, 15, 1);
+    
+    a{
+        color: black;
+    }
 }
 
 @media screen and (min-width:768px) {

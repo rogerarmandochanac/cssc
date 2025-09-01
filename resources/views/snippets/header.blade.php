@@ -11,10 +11,10 @@
     </div>
     <div id="header-buttons">
         <div id="btn-diagnostico" class="mona-sans btn-header">
-            Solicita tu diagnóstico
+            <a href="#contacto">Solicita tu diagnóstico</a>
         </div>
         <div id="btn-servicios" class="mona-sans btn-header">
-            Conoce nuestros servicios
+            <a href="#servicios">Conoce nuestros servicios</a>
         </div>
     </div>
 </header>

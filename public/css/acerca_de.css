@@ -27,12 +27,22 @@
 }
 
 #acerca_de_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 173px;
     height: 42px;
     background-color: rgba(0, 54, 107, 1);
     color: rgba(255, 255, 255, 1);
     font-size: 14px;
     font-weight: 700;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+#acerca_de_button:hover{
+    background-color: var(--amarillo);
+    color:var(--azul);
 }
 
 @media screen and (min-width:796px) {
